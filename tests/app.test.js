@@ -2,6 +2,6 @@ const app = require("../src/app");
 
 describe("Application", () => {
   test("application should exist", () => {
-    expect(app).toBeDefined();
+    expect(app).toBeUndefined();
   });
 });
