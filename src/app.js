@@ -8,4 +8,11 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/profile", (req, res) => {
+  res.json({
+    name: "Israr",
+    role: "Full Stack Developer",
+  });
+});
+
 module.exports = app;
